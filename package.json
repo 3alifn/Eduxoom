@@ -5,9 +5,11 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node app.js",
     "dev": "nodemon app",
-    "demo": "node demo.js"
+    "demo": "node demo.js",
+    "npkg": "npm i express session express-session axios cors dotenv ejs mysql node-localstorage bootstrap body-parser cookie-parser connect-flash express-mysql-session jsonwebtoken multer nodemailer setinterval socket.io zklib-32ble sharp@0.31.3"
+
   },
   "author": "alifn",
   "license": "ISC",
